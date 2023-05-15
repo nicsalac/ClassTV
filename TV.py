@@ -17,4 +17,6 @@ class TV:
         self.volume = volume
 
 tv1 = TV(30, 3)
+tv2 = TV(3, 2)
 print("tv1's channel is", int(tv1.channel), "and volume level is", int(tv1.volume) )
+print("tv2's channel is", int(tv2.channel), "and volume level is", int(tv2.volume) )
