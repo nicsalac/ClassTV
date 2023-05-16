@@ -15,15 +15,27 @@ class TV:
 
     def get_channel(self):
         return self.channel
-
+     
     def get_volume(self):
         return self.volume
-    
+    #Sets channel
     def set_channel(self, channel):
         self.channel = channel
-
-    def set_volume(self, volume):
+    #Sets volume level 
+    def set_volume(self):
         self.volume = volume
+    #Increases channel number by 1 
+    def channel_up(self):
+        self.channel = channel
+        return self.channel + 1
+    #Decreases channel number by 1
+    def channel_down(self):
+        self.channel = channel
+        return self.channel - 1
+    
+    
+
+
 
 tv1 = TV(30, 3, True)
 tv2 = TV(3, 2, True)
