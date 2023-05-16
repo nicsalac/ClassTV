@@ -32,10 +32,15 @@ class TV:
     def channel_down(self):
         self.channel = channel
         return self.channel - 1
+    #Increases the volume level by 1
+    def volume_up(self):
+        self.volume = volume
+        return self.volume + 1
+    #Decreases the volume level by 1
+    def volume_dowm(self):
+        self.volume = volume
+        return self.volume -1
     
-    
-
-
 
 tv1 = TV(30, 3, True)
 tv2 = TV(3, 2, True)
